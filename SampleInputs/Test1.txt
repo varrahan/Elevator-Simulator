@@ -1,0 +1,6 @@
+Time Floor FloorButton CarButton Fault(0-no fault, 1-stuck between floors, 2-door stuck open 3-door stuck closed, 4-arrival sensor issue )
+hh:mm:ss.mmm n Up/Down n n
+14:05:15.0 2 Up 4 0
+16:05:15.0 5 Up 7 4
+18:05:13.0 2 Down 4 2
+19:03:12.0 3 Down 1 0
