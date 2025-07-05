@@ -23,7 +23,7 @@ Main.cpp: Main code for the system
 Scheduler.cpp: Code for the elevator scheduler logic
 Scheduler.h: Header file for the scheduler class
 ElevatorEnums.h: Enums for states
-Datagram1.h: Class for DatagramSocket, DatagramPacket, and InetAddress
+Datagram.h: Class for DatagramSocket, DatagramPacket, and InetAddress
 ElevatorInfo.h Class for elevatorInfo that holds real time information about the elevator
 schedulerApp: The scheduler app (executable)
 SchedulerStateDiagram.png: The state diagram for the scheduler
@@ -46,7 +46,7 @@ g++ -o schedulerApp Main.cpp Scheduler.cpp ElevatorSubsystem.cpp Floor.cpp
 ./schedulerApp [input.txt file]
 
 To run unit test for example ElevatorTest:
-g++ -o elevatorTest FloorElevatorTest.cpp Scheduler.cpp ElevatorSubsystem.cpp Floor.cpp
+g++ -o elevatorTest tests/FloorElevatorTest.cpp Scheduler.cpp ElevatorSubsystem.cpp Floor.cpp
 ./elevatorTest
 
 ## Must Haves:
